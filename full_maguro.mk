@@ -37,7 +37,7 @@ $(call inherit-product, device/samsung/maguro/device.mk)
 #JCROM
 $(call inherit-product-if-exists, jcrom/samsung/maguro/device-maguro.mk)
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=yakju BUILD_FINGERPRINT=google/yakju/maguro:4.2/JOP40C/527662:user/release-keys PRIVATE_BUILD_DESC="yakju-user 4.2 JOP40C 527662 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=yakju BUILD_FINGERPRINT=google/yakju/maguro:4.2.1/JOP40D/533553:user/release-keys PRIVATE_BUILD_DESC="yakju-user 4.2.1 JOP40D 533553 release-keys"
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_maguro
