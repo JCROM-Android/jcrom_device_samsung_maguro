@@ -34,12 +34,12 @@ install_blobs() {
     done
 }
 
-MAGURO_BLOBS="broadcom-maguro-jdq39-8edbeae8.tgz
-              imgtec-maguro-jdq39-bb3c4e4e.tgz
-              invensense-maguro-jdq39-5eeb2d51.tgz
-              nxp-maguro-jdq39-a20a2cd1.tgz
-              samsung-maguro-jdq39-556fc2c7.tgz
-              widevine-maguro-jdq39-62276b32.tgz"
+MAGURO_BLOBS="broadcom-maguro-jwr66v-67de03a5.tgz
+              imgtec-maguro-jwr66v-8c6053ac.tgz
+              invensense-maguro-jwr66v-d0d44515.tgz
+              nxp-maguro-jwr66v-c43474a5.tgz
+              samsung-maguro-jwr66v-03e74ff7.tgz
+              widevine-maguro-jwr66v-9189a15f.tgz"
 
 CSUM_LIST="$PWD/blob-shasums"
 

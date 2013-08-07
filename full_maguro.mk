@@ -28,7 +28,7 @@ $(call inherit-product-if-exists, jcrom/samsung/maguro/device-common.mk)
 PRODUCT_COPY_FILES := device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # This is where we'd set a backup provider if we had one
 #$(call inherit-product, device/sample/products/backup_overlay.mk)
 # Inherit from maguro device
@@ -37,7 +37,7 @@ $(call inherit-product, device/samsung/maguro/device.mk)
 #JCROM
 $(call inherit-product-if-exists, jcrom/samsung/maguro/device-maguro.mk)
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=yakju BUILD_FINGERPRINT=google/yakju/maguro:4.2.2/JDQ39/573038:user/release-keys PRIVATE_BUILD_DESC="yakju-user 4.2.2 JDQ39 573038 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=yakju BUILD_FINGERPRINT=google/yakju/maguro:4.3/JWR66V/737497:user/release-keys PRIVATE_BUILD_DESC="yakju-user 4.3 JWR66V 737497 release-keys"
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_maguro
