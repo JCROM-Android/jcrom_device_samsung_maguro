@@ -1,4 +1,5 @@
-# Copyright (C) 2011 The Android Open Source Project
+#
+# Copyright 2014 JCROM Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -37,7 +38,7 @@ $(call inherit-product-if-exists, jcrom/samsung/maguro/device-maguro.mk)
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=yakju BUILD_FINGERPRINT=google/yakju/maguro:4.3/JWR66Y/776638:user/release-keys PRIVATE_BUILD_DESC="yakju-user 4.3 JWR66Y 776638 release-keys"
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_maguro
+PRODUCT_NAME := jcrom_maguro
 PRODUCT_DEVICE := maguro
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Galaxy Nexus
